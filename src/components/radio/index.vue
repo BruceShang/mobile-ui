@@ -18,6 +18,7 @@
 
 <script>
 export default {
+  name: 'we-radio',
   model: {
     prop: 'modelValue', // 父组v-model="paraValues"中的paraValues值会传入modelValue的字段
     event: 'change', // 同时会触发一个input事件,并带一个新值，paraValues属性将被更新

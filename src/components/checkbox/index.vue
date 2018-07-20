@@ -18,6 +18,7 @@
 
 <script>
 export default {
+  name: 'we-checkbox',
   // 自定义组件的v-model
   // https://cn.vuejs.org/v2/guide/components-custom-events.html
   model: {

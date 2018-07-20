@@ -1,9 +1,8 @@
 {
-  "name": "nisu",
-  "version": "1.0.0",
+  "name": "@position/nisu-components",
+  "version": "1.0.04",
   "description": "nisu mobile",
   "author": "shangzhen <270504114@qq.com>",
-  "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -12,8 +11,7 @@
   },
   "dependencies": {
     "nisu-koa2-sdk": "^1.0.8",
-    "nisusite-vue-deps": "^1.0.11",
-    "vuex": "^3.0.1"
+    "nisusite-vue-deps": "^1.0.12"
   },
   "engines": {
     "node": ">= 6.0.0",
@@ -24,19 +22,15 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "main": ".eslintrc.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/BruceShang/vueMobileRem.git"
+    "url": "git+ssh://git@github.com/BruceShang/mobile-ui.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BruceShang/vueMobileRem/issues"
+    "url": "https://github.com/BruceShang/mobile-ui/issues"
   },
-  "homepage": "https://github.com/BruceShang/vueMobileRem#readme",
-  "devDependencies": {
-    "install": "^0.12.1",
-    "normalize.css": "^8.0.0",
-    "npm": "^6.2.0"
-  }
+  "homepage": "https://github.com/BruceShang/mobile-ui#readme",
+  "devDependencies": {}
 }
